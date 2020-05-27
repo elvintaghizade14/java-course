@@ -1,13 +1,65 @@
-Lombok
+Architecture
+ - Proper initialization hierarchy
+ - No duplicated instances
+ - No code duplication
+ - Try with resources
+Tidiness
+ - Naming conventions (packages, classes, variables, constants naming)
+ - Formatting (indentation, empty lines, spaces)
+ - Project structure (appropriate entities in the appropriate locations)
+ - Extra files (.gitignore, target, .idea)
+Servlets
+ - No state
+ - No static field for current user
+ - No shared data between doGet and doPost
 Filters
+ - no render inside servlets
+ - cookies
+ - params
+Redirect
+ - from root
+ - from wrong path
+ - cookie problems
+ - exceptions?
+SQL Databases
+ - preparedStatement instead of "select" + "id" + "from" + "..."
+ - proper DAO implementation (not select * + stream.filter)
+ - migrations metadata
+ - migrations initial data
 Cookies
-Login page, Logout, cookie removal
-Registration
-Redirect to login page if no auth
-Redirect to login page if wrong link
-All non-code (templates) in resources folder
-Security (cookie readability)
-DB Migrations (FlyWay)
-Tidiness (structure, gitignore)
-Exception handling
-
+ - only one cookie
+ - encoded
+ - remove after logout
+Redirects
+ - no auth/cookie
+ - no circular redirects
+ - after successful reg
+ - after successful login
+ - after logout
+Exceptions handling
+ - no silently caught exceptions
+ - null
+ - connection
+ - int conversion
+ - params absence
+ - no user in db
+Misc
+ - Lombok instead getter/setter/constructors
+ - Logger instead of System.out.println
+ - Freemarker instead of printf + StringBuilder
+ - Dependency uncluttered
+Configuration/Deployment
+ - No hardcoded info
+ - DB credentials from environment
+ - configuration file
+Resources folder
+ - templates
+ - migrations
+ - logger configuration
+ - log rotation
+ - extra useful files
+Documentation
+ - link to github profile
+ - link to deployed version
+ - resources needed to start (db connection, etc)
+ - test users credentials
