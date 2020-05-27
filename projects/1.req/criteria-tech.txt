@@ -3,6 +3,10 @@ Architecture
  - No duplicated instances
  - No code duplication
  - Try with resources
+ - Functional declarative approaches, lambda, streams
+ - No singletons
+ - No static
+ - null management: -1 / Optional / if / exception / empty list / null object / ...
 Tidiness
  - Naming conventions (packages, classes, variables, constants naming)
  - Formatting (indentation, empty lines, spaces)
@@ -38,6 +42,7 @@ Redirects
  - after logout
 Exceptions handling
  - no silently caught exceptions
+ - logging all exceptions
  - null
  - connection
  - int conversion
@@ -63,3 +68,5 @@ Documentation
  - link to deployed version
  - resources needed to start (db connection, etc)
  - test users credentials
+Tests
+ - ...
