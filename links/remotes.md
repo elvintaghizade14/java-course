@@ -1,0 +1,3 @@
+- [baeldung](https://www.baeldung.com)
+- [vladmihalcea](https://vladmihalcea.com)
+- [mvnrepository](https://mvnrepository.com/repos/central)

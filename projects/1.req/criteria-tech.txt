@@ -1,0 +1,13 @@
+Lombok
+Filters
+Cookies
+Login page, Logout, cookie removal
+Registration
+Redirect to login page if no auth
+Redirect to login page if wrong link
+All non-code (templates) in resources folder
+Security (cookie readability)
+DB Migrations (FlyWay)
+Tidiness (structure, gitignore)
+Exception handling
+

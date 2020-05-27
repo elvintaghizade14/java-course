@@ -1,0 +1,14 @@
+Server + Hello Servlet
+Static page
+Next Image + name on Yes/No click
+On Yes add to Liked users
+Hardcoded page with liked users
+Real page with liked users
+Hardcoded page with messages
+Page with real messages
+POST new message
+Use real database
+Application works with different users
+Use Freemarker template engine
+Use Bootstrap templates
+Application deployment
