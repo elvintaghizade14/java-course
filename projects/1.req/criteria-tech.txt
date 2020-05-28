@@ -7,6 +7,9 @@ Architecture
  - No singletons
  - No static
  - null management: -1 / Optional / if / exception / empty list / null object / ...
+GIT
+ - commit history
+ - whole group contribution
 Tidiness
  - Naming conventions (packages, classes, variables, constants naming)
  - Formatting (indentation, empty lines, spaces)
@@ -26,8 +29,11 @@ Redirect
  - cookie problems
  - exceptions?
 SQL Databases
+ - right data types
+ - foreign keys
  - preparedStatement instead of "select" + "id" + "from" + "..."
  - proper DAO implementation (not select * + stream.filter)
+ - clear separation DAO and service layer (no "insert into..." in the service)
  - migrations metadata
  - migrations initial data
 Cookies
