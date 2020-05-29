@@ -8,6 +8,7 @@ Architecture
  - No static
  - null management: -1 / Optional / if / exception / empty list / null object / ...
 GIT
+ - project must be located in the branch master
  - commit history
  - whole group contribution
 Tidiness
@@ -74,5 +75,3 @@ Documentation
  - link to deployed version
  - resources needed to start (db connection, etc)
  - test users credentials
-Tests
- - ...
