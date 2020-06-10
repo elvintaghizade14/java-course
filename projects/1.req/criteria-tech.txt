@@ -8,8 +8,8 @@ Architecture
  - No static
  - null management: -1 / Optional / if / exception / empty list / null object / ...
 GIT
- - project must be located in the branch master
- - commit history
+ - final version of the project must be located in the branch master
+ - project must contain whole commit history, NOT ONLY ONE commit, created day before
  - whole group contribution
 Tidiness
  - Naming conventions (packages, classes, variables, constants naming)

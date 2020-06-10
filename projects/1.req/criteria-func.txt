@@ -12,3 +12,6 @@ Application works with different users
 Use Freemarker template engine
 Use Bootstrap templates
 Application deployment
+
+
+Proper navigation between the screens
